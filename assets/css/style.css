@@ -1,0 +1,62 @@
+body {
+    background: url(../images/geography.jpg);
+    background-size: contain;
+}
+
+.jumbotron {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(3, 117, 108);
+    color: rgb(204, 204, 185);
+    font-family: 'Source Code Pro', monospace;
+}
+
+#maincontent {
+    background-color: rgb(93, 111, 128);
+    width: 960px;
+    height: 400px;;
+    box-sizing: border-box;
+}
+
+#subcontent {
+    position: relative;
+}
+
+#header {
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#start {
+    margin-top: 10%;
+}
+
+#playGround {
+    text-align: center;
+}
+
+.timer-p {
+    color: rgb(204, 204, 185);
+}
+
+.questions {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.answer {
+    padding: 10px;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.answer:hover {
+    background: purple;
+}
